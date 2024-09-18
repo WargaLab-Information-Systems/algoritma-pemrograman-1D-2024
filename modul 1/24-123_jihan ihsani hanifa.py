@@ -1,3 +1,3 @@
 print("Nama : Jihan ihsani hanifa")
-print("Nim : 240441100123")
+print("Nim : 2404411003")
 print("Kelas : Algoritma Pemrograman 1D")
