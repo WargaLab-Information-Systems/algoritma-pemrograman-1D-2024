@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="BARUU"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 12:17:13 AM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC0wSklJVTNISjsyMDI0LTEwLTA3OzEwOjQ2OjE0IFBNOzI4MDI="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC0wSklJVTNISjsyMDI0LTEwLTA4OzEyOjE3OjEzIEFNOzI7Mjg5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama1" type="String" array="False" size=""/>
+            <declare name="skorjaka" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka" type="Real" array="False" size=""/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <output expression="&quot;masukkan nama&quot;" newline="True"/>
+            <input variable="nama1"/>
+            <if expression="skorjaka &gt; 1100 and ipkjaka &gt; 3.5">
+                <then>
+                    <output expression="&quot;selamat jaka lulus beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;maaf jaka tidak lolos beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;next&quot;" newline="True"/>
+            <declare name="nama2" type="String" array="False" size=""/>
+            <declare name="skorida" type="Integer" array="False" size=""/>
+            <declare name="ipkida" type="Real" array="False" size=""/>
+            <assign variable="skorida" expression="1000"/>
+            <assign variable="ipkida" expression="3.5"/>
+            <output expression="&quot;masukkan nama&quot;" newline="True"/>
+            <input variable="nama2"/>
+            <if expression="skorida &gt;= 1000 and ipkida &gt; 3.5">
+                <then>
+                    <output expression="&quot;selamat ida lulus beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;maaf ida tidak lolos beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
