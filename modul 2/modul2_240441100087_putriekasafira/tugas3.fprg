@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tugas3"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 07:15:10 PM"/>
+        <attribute name="created" value="QVNVUztKRVRFOzIwMjQtMTAtMDQ7MDE6NDU6NTYgQU07MTg3NQ=="/>
+        <attribute name="edited" value="QVNVUztKRVRFOzIwMjQtMTAtMDc7MDc6MTU6MTAgUE07MzsxOTk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <output expression="&quot;masukan nama= &quot;" newline="True"/>
+            <input variable="nama"/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan skor= &quot;" newline="True"/>
+            <input variable="skor"/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;masukkan ipk= &quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt;1100 and ipk &gt;=3.0">
+                <then>
+                    <output expression="nama &amp; &quot; selamat anda dinyatakan lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nama &amp; &quot; maaf anda dinyatakan tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <declare name="nama" type="String" array="False" size=""/>
+            <output expression="&quot;masukan nama= &quot;" newline="True"/>
+            <input variable="nama"/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan skor= &quot;" newline="True"/>
+            <input variable="skor"/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;masukkan ipk= &quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt;1100 and ipk &gt;=3.0">
+                <then>
+                    <output expression="nama &amp; &quot; selamat anda dinyatakan lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nama &amp; &quot; maaf anda dinyatakan tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="start" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <output expression="&quot;masukkan nama: &quot;" newline="True"/>
+            <input variable="nama"/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan skor: &quot;" newline="True"/>
+            <input variable="skor"/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;masukkan ipk: &quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor&gt;1100 and ipk &gt;=3.0">
+                <then>
+                    <output expression="nama &amp; &quot;selamat atas nama(...)dinyatakan lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nama &amp; &quot;maaf atas nama(...)dinyatakan tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
