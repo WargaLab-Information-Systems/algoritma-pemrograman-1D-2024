@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowagarithm faisol"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 05:07:20 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC0wSklJVTNISjsyMDI0LTEwLTA4OzA0OjUzOjA2IFBNOzI4MDU="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC0wSklJVTNISjsyMDI0LTEwLTA4OzA1OjA3OjIwIFBNOzI7MjkxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="namajaka" type="String" array="False" size=""/>
+            <declare name="skorjaka" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka" type="Real" array="False" size=""/>
+            <assign variable="namajaka" expression="&quot;jaka&quot;"/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <if expression="skorjaka &gt; 1100 and ipkjaka &gt; 3.0">
+                <then>
+                    <output expression="&quot;selamat&quot;&amp;namajaka&amp;&quot;, anda lulus beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;maaf &quot;&amp;namajaka&amp;&quot;, Anda tidak lulus beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <declare name="nama" type="String" array="False" size=""/>
+            <assign variable="nama" expression="&quot;ida&quot;"/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <assign variable="skor" expression="1100"/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <assign variable="ipk" expression="3.5"/>
+            <if expression="skor &gt; 1100 and ipk &gt; 3.0">
+                <then>
+                    <output expression="&quot;selamat&quot;&amp;nama&amp;&quot;, anda lulus beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;maaf &quot;&amp;nama&amp;&quot;, Anda tidak lulus beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
