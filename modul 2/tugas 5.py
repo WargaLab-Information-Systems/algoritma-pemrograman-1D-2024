@@ -18,5 +18,5 @@ else:
     total_harga = total_belanja - total_diskon 
     
 print(f"diskon yang didapatkan {nama} sebanyak {diskon}% ")
-print(f"jadi total harga makanan pembelio {nama} sebelum diskon Rp {total_belanja}")
+print(f"jadi total harga makanan pembeli {nama} sebelum diskon Rp {total_belanja}")
 print(f"jadi total harga makanan pembeli {nama} setelah diskon Rp {total_harga}")

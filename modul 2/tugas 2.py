@@ -2,6 +2,9 @@
 skor_jaka = 1100
 ipk_jaka = 3.5
 
+skor_ida = 1000
+ipk_ida = 3.5
+
 # persyaratan beasiswa
 ipk = 3.0
 skor = 1100
