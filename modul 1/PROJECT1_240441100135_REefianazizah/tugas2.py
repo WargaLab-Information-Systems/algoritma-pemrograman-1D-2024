@@ -1,6 +1,3 @@
-# algoritma-pemrograman-1D-2024
-
-repository ALPRO 1D
 # Program untuk menghitung jumlah 8 suku pertama dari deret aritmatika tanpa pengulangan
 
 # Diketahui
