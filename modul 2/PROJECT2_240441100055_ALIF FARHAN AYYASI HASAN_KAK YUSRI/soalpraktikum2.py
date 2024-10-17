@@ -1,3 +1,4 @@
+
 # Data Jaka
 nama_jaka = "Jaka"
 skor_jaka = 1100
@@ -23,4 +24,3 @@ if skor_ida >= skor_minimal and ipk_ida >= ipk_minimal:
     print(nama_ida, "lulus persyaratan beasiswa.")
 else:
     print(nama_ida, "tidak lulus persyaratan beasiswa.")
-  

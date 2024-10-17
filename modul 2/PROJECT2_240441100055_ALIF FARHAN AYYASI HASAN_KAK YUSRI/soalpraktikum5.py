@@ -1,3 +1,4 @@
+
 # Program Diskon Pembelian Minuman di Bar
 
 # Input data pembeli
@@ -33,4 +34,3 @@ else:
     print(f"Total Harga Sebelum Diskon : Rp{total_belanja}")
     print(f"Diskon yang Didapat : {diskon}%")
     print(f"Total Diskon        : Rp{total_diskon}")
-    print(f"Total Harga Setelah Diskon : Rp{total_setelah_diskon}") 
