@@ -1,3 +1,4 @@
+
 # Soal Praktikum Nomor 1
 # Input data mahasiswa
 nama = input("Masukan Nama: ")
@@ -26,4 +27,3 @@ elif 0 <= nilai_rata_rata <= 40:
     print( "E")
 else:
      print("nilai invalid")
-
