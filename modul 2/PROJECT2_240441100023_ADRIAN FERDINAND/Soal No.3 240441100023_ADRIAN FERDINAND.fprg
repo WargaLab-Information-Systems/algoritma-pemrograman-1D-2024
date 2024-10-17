@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="240441100023_ADRIAN FERDINAND"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 04:28:22 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtRU5RQ0ZLQU07MjAyNC0xMC0wMzswODowNzoyMiBQTTsyNjgy"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtRU5RQ0ZLQU07MjAyNC0xMC0wODswNDoyODoyMiBQTTszOzI3OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan nama&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;Masukkan skor&quot;" newline="True"/>
+            <input variable="skor"/>
+            <output expression="&quot;Masukkan ipk&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt; 1100  and ipk &gt;=3.5">
+                <then>
+                    <output expression="nama&amp;&quot;Anda lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Mohon maaf &quot;&amp;nama&amp;&quot;anda tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
