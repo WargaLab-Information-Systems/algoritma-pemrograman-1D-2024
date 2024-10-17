@@ -1,3 +1,4 @@
+
 # Soal praktikum no 4
 tahun = int(input("Masukkan tahun: "))
 
@@ -9,4 +10,3 @@ elif tahun % 100 == 0:
 elif tahun % 4 == 0:
     print(f"{tahun} adalah tahun kabisat.")
 else:
-    print(f"{tahun} bukan tahun kabisat.")
