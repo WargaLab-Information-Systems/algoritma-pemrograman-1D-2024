@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="modul 2 soal 3"/>
+        <attribute name="authors" value="MARTHA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 11:28:44 AM"/>
+        <attribute name="created" value="TUFSVEhBO0xBUFRPUC1ENjBUSVVJNjsyMDI0LTEwLTA3OzEyOjA4OjU5IFBNOzI3Nzg="/>
+        <attribute name="edited" value="TUFSVEhBO0xBUFRPUC1ENjBUSVVJNjsyMDI0LTEwLTA4OzExOjI4OjQ0IEFNOzI7Mjg2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ipk" type="Integer" array="False" size=""/>
+            <output expression="&quot;ipk jaka=&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <output expression="&quot;skor jaka=&quot;" newline="True"/>
+            <input variable="skor"/>
+            <if expression="ipk &gt;= 3.0 and skor &gt;= 1100">
+                <then>
+                    <output expression="&quot;Selamat anda lolos seleksi beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Maaf anda kurang beruntung&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;ipk ida=&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <output expression="&quot;skor ida=&quot;" newline="True"/>
+            <input variable="skor"/>
+            <if expression="ipk &gt;= 3.0 and skor &gt;= 1100">
+                <then>
+                    <output expression="&quot;Selamat anda lulus seleksi beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Maaf anda kurang beruntung&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
