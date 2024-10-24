@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="nomer 3"/>
+        <attribute name="authors" value="MK COMPUTER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 09.29.02 PM"/>
+        <attribute name="created" value="TUsgQ09NUFVURVI7REVTS1RPUC1CTlZSRUZQOzIwMjQtMTAtMDc7MDcuMDAuNTAgUE07MzE2OQ=="/>
+        <attribute name="edited" value="TUsgQ09NUFVURVI7REVTS1RPUC1CTlZSRUZQOzIwMjQtMTAtMDc7MDkuMjkuMDIgUE07MTszMjg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skorjaka, skorida" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka, ipkida" type="Real" array="False" size=""/>
+            <declare name="syaratskor" type="Integer" array="False" size=""/>
+            <declare name="syaratipk" type="Real" array="False" size=""/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <assign variable="syaratskor" expression="1100"/>
+            <assign variable="syaratipk" expression="3.0"/>
+            <if expression="skorjaka &gt; syaratskor and ipkjaka &gt;= syaratskor">
+                <then>
+                    <output expression="&quot;anda lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;anda tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="skorida" expression="1000"/>
+            <assign variable="ipkida" expression="3.5"/>
+            <if expression="skorida &gt; syaratskor and ipkida &gt;= syaratskor">
+                <then>
+                    <output expression="&quot;anda lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;anda tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
