@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 09:10:34 PM"/>
+        <attribute name="created" value="cGM7IEFTVVM7IDIwMjQtMTAtMDc7IDA2OjQ2OjEzIEFNOyAxODg4"/>
+        <attribute name="edited" value="cGM7IEFTVVM7IDIwMjQtMTAtMDc7IDA5OjEwOjM0IFBNOyAxOTAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skorjaka, skorida" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka, ipkida" type="Real" array="False" size=""/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <if expression="skorjaka &gt; 1100 and ipkjaka &gt;= 3.0">
+                <then>
+                    <output expression="&quot;Jaka lulus persyaratan Beasiswa&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Jaka tidak lulus persyaratan Beasiswa&quot;"/>
+                </else>
+            </if>
+            <assign variable="skorida" expression="1000"/>
+            <assign variable="ipkida" expression="3.5"/>
+            <if expression="skorida &gt; 1100 and ipkida &gt;= 3.0">
+                <then>
+                    <output expression="&quot;Ida lulus persyaratan Beasiswa&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ida tidak lulus persyaratan Beasiswa&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
