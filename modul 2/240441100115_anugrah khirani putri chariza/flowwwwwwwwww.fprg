@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowwwwwwwwww"/>
+        <attribute name="authors" value="WINDOWS_10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 04:13:24 PM"/>
+        <attribute name="created" value="V0lORE9XU18xMDtERVNLVE9QLUVTSjUxRDI7MjAyNC0xMC0wNzsxMDoxNjoyMyBBTTszMDM0"/>
+        <attribute name="edited" value="V0lORE9XU18xMDtERVNLVE9QLUVTSjUxRDI7MjAyNC0xMC0wODswNDoxMzoyNCBQTTsyOzMxNjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <declare name="ipk" type="Integer" array="False" size=""/>
+            <declare name="skorjaka" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka" type="Integer" array="False" size=""/>
+            <assign variable="skor" expression="1100"/>
+            <assign variable="ipk" expression="3.5"/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <if expression="skorjaka &gt;= skor and ipkjaka &gt;=ipk">
+                <then>
+                    <output expression="&quot;jaka lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jaka tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+            <declare name="skorida" type="Integer" array="False" size=""/>
+            <declare name="ipkida" type="Integer" array="False" size=""/>
+            <assign variable="ipkida" expression="3.5"/>
+            <assign variable="skorida" expression="1000"/>
+            <if expression="skorida &gt;= skor and ipkida &gt;= ipk">
+                <then>
+                    <output expression="&quot;ida lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ida tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
