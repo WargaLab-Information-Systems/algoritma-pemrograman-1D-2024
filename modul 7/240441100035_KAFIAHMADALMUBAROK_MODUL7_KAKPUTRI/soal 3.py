@@ -11,7 +11,7 @@ def tampilkan():
     if bank_data:
         print("\nDaftar Siswa:")
         for data in bank_data:
-            print(f"Nama: {data['nama']} | Asal Sekolah: {data['asal sekolah']} | Kelas: {data['plotting']}")
+            print(f"Nama: {data['nama']} | Asal Sekolah: {data['asal sekolah']} | Kelas: {data['kelas']}")
     else:
         print("\nTIDAK ADA DATA")
 
