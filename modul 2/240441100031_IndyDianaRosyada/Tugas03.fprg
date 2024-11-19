@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tugas03"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 12:39:34 PM"/>
+        <attribute name="created" value="SFA7TEFQVE9QLU1CN05HNVQ5OzIwMjQtMTAtMDg7MDk6MTM6MzAgQU07MjQ2NA=="/>
+        <attribute name="edited" value="SFA7TEFQVE9QLU1CN05HNVQ5OzIwMjQtMTAtMDg7MTI6Mzk6MzQgUE07MTsyNTkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SkorJaka, SkorIda" type="Integer" array="False" size=""/>
+            <assign variable="SkorJaka" expression="1100"/>
+            <assign variable="SkorIda" expression="1000"/>
+            <declare name="IpkJaka, IpkIda" type="Real" array="False" size=""/>
+            <assign variable="IpkJaka" expression="3.5"/>
+            <assign variable="IpkIda" expression="3.5"/>
+            <if expression="SkorJaka &gt; 1100 AND IpkJaka &gt;= 3.0">
+                <then>
+                    <output expression="&quot;Jaka lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Jaka tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="SkorIda &gt; 1100 AND IpkIda &gt;= 3.0">
+                <then>
+                    <output expression="&quot;Ida lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ida tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
